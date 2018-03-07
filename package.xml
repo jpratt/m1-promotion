@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Promotion</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Iuvo Commercial Extension</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The promotion rule that magento should have included! Meet X condition get a defined item free, and added to the cart.</summary>
+    <description>The promotion rule that magento should have included! Meet X condition get a defined item free, and added to the cart. This package adds the ability to define conditions to trigger an item to be added for free, and also define the rules of how the discount is taken and how the item is treated once conditions are no longer met.</description>
+    <notes>See docs for details</notes>
+    <authors><author><name>Iuvo</name><user>iuvo</user><email>extension@iuvocommerce.com</email></author></authors>
+    <date>2011-12-18</date>
+    <time>01:56:36</time>
+    <contents><target name="magecommunity"><dir name="Iuvo"><dir name="Promotion"><dir name="Block"><dir name="Promo"><dir name="Quote"><dir name="Edit"><dir name="Tab"><file name="Actions.php" hash="25cf352f23d60774a97686de5a380b55"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir></dir><file name="Edit.php" hash="66d107b767cdc2a8778301a7dd54d9eb"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="dc978ccc864ab7e04a342beab25121ff"/></dir><dir name="Model"><file name="Rule.php" hash="18662ebf6d29fd810116053536f98bd5"/><file name="Validator.php" hash="a514689434dd96d9243dd9dab51b9953"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><dir name="etc"><file name="config.xml" hash="f6b31c3ba04229b614bd4517fca8d8d3"/><file name="system.xml" hash="8d1c216727cdf0e4ef8dd61a024a1101"/></dir><dir name="sql"><dir name="promotion_setup"><file name="mysql4-install-1.0.0.php" hash="e201d6840f24200fdeb7215590eed3fe"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Iuvo_Promotion.xml" hash="9da367c75352d0f21bc34b1af7ac79b9"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
